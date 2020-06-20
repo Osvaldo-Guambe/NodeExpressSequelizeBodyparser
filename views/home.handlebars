@@ -1,0 +1,12 @@
+<h1>Lista de Posts</h1>
+
+
+{{#each dados}}
+<small>
+    <h1>{{dataValues.titulo}}</h1>
+</small>
+<p>
+<h4>{{dataValues.conteudo}}</h4>
+</p>
+<a href="/deletar/{{dataValues.id}}"><button>Apagar</button></a>
+{{/each}}
